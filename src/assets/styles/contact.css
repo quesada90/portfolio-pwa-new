@@ -1,0 +1,104 @@
+@keyframes titleFadeIn {
+   from {
+      opacity: 0;
+      transform: translateY(20%);
+   }
+   to {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+
+@keyframes fadeIn {
+   from {
+      opacity: 0;
+      transform: translateX(-50%);
+   }
+   to {
+      opacity: 1;
+      transform: translateX(0);
+   }
+}
+
+.hero-contact {
+   margin: 0 auto;
+   max-width: 1200px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 8rem;
+   animation: titleFadeIn 0.6s ease-in;
+}
+
+.contact-info {
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.contact-info ul {
+   display: flex;
+   flex-direction: column;
+   gap: 0.3rem;
+   width: fit-content;
+}
+
+.contact-title{
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   animation: fadeIn 0.6s ease-in;
+}
+
+form {
+   display: flex;
+   margin: 0 auto;
+   padding: 4rem 0 8rem 0;
+   max-width: 1200px;
+   flex-direction: row;
+   justify-content: space-between;
+   gap: 4rem;
+}
+
+form div {
+   display: flex;
+   flex: 1 1 0;
+}
+
+.inputs {
+   display: flex;
+   flex-direction: column;
+   gap: 1.5rem;
+   animation: fadeIn 0.6s ease-in;
+}
+
+label{
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+}
+
+input, textarea {
+   padding: 0.5rem;
+   border: 1px solid black;
+   border-radius: 0.25rem;
+}
+
+textarea {
+   height: 6rem;
+}
+
+#submit{
+   padding: 1rem 2rem;
+   border: 2px solid black;
+   text-decoration: none;
+   border-radius: 0.5rem;
+   width: fit-content;
+   background-color: white;
+   cursor: pointer;
+}
+
+#submit:hover {
+   background-color: #252525;
+   color: aliceblue;
+}

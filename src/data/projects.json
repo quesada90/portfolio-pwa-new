@@ -1,0 +1,98 @@
+[
+  {
+    "id": "diarios-de-un-viaje",
+    "category": "Aventura",
+    "title": "Diarios de un viaje",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero blanditiis magni aliquid adipisci deserunt nesciunt! Quas possimus saepe perspiciatis. Omnis accusamus accusantium consectetur doloremque libero? Officiis incidunt facilis pariatur quis?",
+    "image": "/img/notas.jpg",
+    "year": "2023",
+    "author": "Ana Suarez",
+    "type": "Fotografía digital",
+    "materials": "cámara DSLR",
+    "medium": "Impresión Giclée",
+    "dimensions": "60x40 cm",
+    "info": "Edición limitada de 25 copias",
+    "fullDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus totam mollitia velit quasi sit ea accusamus fugiat minima natus dignissimos rerum ad, vero iste. Omnis eligendi eos beatae? Hic, porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nostrum, esse voluptates nihil omnis fuga beatae ex ipsam amet! Minus eius alias hic labore deleniti iusto nihil consequuntur reprehenderit aliquam aspernatur impedit, reiciendis pariatur eligendi quis corporis ab voluptatum voluptate omnis dolorum laboriosam molestias odio illum nemo? Eaque suscipit, excepturi ipsam blanditiis non cupiditate obcaecati id architecto eligendi officia alias temporibus voluptatibus dolore quasi, iste molestiae et harum necessitatibus cumque cum! Ab iure expedita necessitatibus provident error, odio asperiores, magni, architecto nam sed vitae veritatis dolorum aut at itaque quo a. Voluptate blanditiis ducimus officiis voluptates facilis. Soluta, tempora doloremque!",
+    "details": [
+      {
+        "title": "Memorías análogas",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero blanditiis magni aliquid adipisci deserunt nesciunt! Quas possimus saepe perspiciatis. Omnis accusamus accusantium consectetur doloremque libero? Officiis incidunt facilis pariatur quis?",
+        "image": "/img/notas.jpg"
+      },
+      {
+        "title": "Memorías análogas",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero blanditiis magni aliquid adipisci deserunt nesciunt! Quas possimus saepe perspiciatis. Omnis accusamus accusantium consectetur doloremque libero? Officiis incidunt facilis pariatur quis?",
+        "image": "/img/notas.jpg"
+      },
+      {
+        "title": "Memorías análogas",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero blanditiis magni aliquid adipisci deserunt nesciunt! Quas possimus saepe perspiciatis. Omnis accusamus accusantium consectetur doloremque libero? Officiis incidunt facilis pariatur quis?",
+        "image": "/img/notas.jpg"
+      }
+    ]
+  },
+  {
+    "id": "entre-el-mar-y-la-arena",
+    "category": "Realismo mágico",
+    "title": "Entre el mar y la arena",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero blanditiis magni aliquid adipisci deserunt nesciunt! Quas possimus saepe perspiciatis. Omnis accusamus accusantium consectetur doloremque libero? Officiis incidunt facilis pariatur quis?",
+    "image": "/img/marypiedras.jpg",
+    "year": "2023",
+    "author": "Ana Suarez",
+    "type": "Fotografía digital",
+    "materials": "cámara DSLR",
+    "medium": "Impresión Giclée",
+    "dimensions": "60x40 cm",
+    "info": "Edición limitada de 25 copias",
+    "fullDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus totam mollitia velit quasi sit ea accusamus fugiat minima natus dignissimos rerum ad, vero iste. Omnis eligendi eos beatae? Hic, porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nostrum, esse voluptates nihil omnis fuga beatae ex ipsam amet! Minus eius alias hic labore deleniti iusto nihil consequuntur reprehenderit aliquam aspernatur impedit, reiciendis pariatur eligendi quis corporis ab voluptatum voluptate omnis dolorum laboriosam molestias odio illum nemo? Eaque suscipit, excepturi ipsam blanditiis non cupiditate obcaecati id architecto eligendi officia alias temporibus voluptatibus dolore quasi, iste molestiae et harum necessitatibus cumque cum! Ab iure expedita necessitatibus provident error, odio asperiores, magni, architecto nam sed vitae veritatis dolorum aut at itaque quo a. Voluptate blanditiis ducimus officiis voluptates facilis. Soluta, tempora doloremque!",
+    "details": [
+      {
+        "title": "Memorías análogas",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero blanditiis magni aliquid adipisci deserunt nesciunt! Quas possimus saepe perspiciatis. Omnis accusamus accusantium consectetur doloremque libero? Officiis incidunt facilis pariatur quis?",
+        "image": "/img/marypiedras.jpg"
+      },
+      {
+        "title": "Memorías análogas",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero blanditiis magni aliquid adipisci deserunt nesciunt! Quas possimus saepe perspiciatis. Omnis accusamus accusantium consectetur doloremque libero? Officiis incidunt facilis pariatur quis?",
+        "image": "/img/marypiedras.jpg"
+      },
+      {
+        "title": "Memorías análogas",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero blanditiis magni aliquid adipisci deserunt nesciunt! Quas possimus saepe perspiciatis. Omnis accusamus accusantium consectetur doloremque libero? Officiis incidunt facilis pariatur quis?",
+        "image": "/img/marypiedras.jpg"
+      }
+    ]
+  },
+  {
+    "id": "el-testigo-silencioso",
+    "category": "Thriller",
+    "title": "El testigo silencioso",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero blanditiis magni aliquid adipisci deserunt nesciunt! Quas possimus saepe perspiciatis. Omnis accusamus accusantium consectetur doloremque libero? Officiis incidunt facilis pariatur quis?",
+    "image": "/img/caminando.jpg",
+    "year": "2023",
+    "author": "Ana Suarez",
+    "type": "Fotografía digital",
+    "materials": "cámara DSLR",
+    "medium": "Impresión Giclée",
+    "dimensions": "60x40 cm",
+    "info": "Edición limitada de 25 copias",
+    "fullDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus totam mollitia velit quasi sit ea accusamus fugiat minima natus dignissimos rerum ad, vero iste. Omnis eligendi eos beatae? Hic, porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nostrum, esse voluptates nihil omnis fuga beatae ex ipsam amet! Minus eius alias hic labore deleniti iusto nihil consequuntur reprehenderit aliquam aspernatur impedit, reiciendis pariatur eligendi quis corporis ab voluptatum voluptate omnis dolorum laboriosam molestias odio illum nemo? Eaque suscipit, excepturi ipsam blanditiis non cupiditate obcaecati id architecto eligendi officia alias temporibus voluptatibus dolore quasi, iste molestiae et harum necessitatibus cumque cum! Ab iure expedita necessitatibus provident error, odio asperiores, magni, architecto nam sed vitae veritatis dolorum aut at itaque quo a. Voluptate blanditiis ducimus officiis voluptates facilis. Soluta, tempora doloremque!",
+    "details": [
+      {
+        "title": "Memorías análogas",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero blanditiis magni aliquid adipisci deserunt nesciunt! Quas possimus saepe perspiciatis. Omnis accusamus accusantium consectetur doloremque libero? Officiis incidunt facilis pariatur quis?",
+        "image": "/img/caminando.jpg"
+      },
+      {
+        "title": "Memorías análogas",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero blanditiis magni aliquid adipisci deserunt nesciunt! Quas possimus saepe perspiciatis. Omnis accusamus accusantium consectetur doloremque libero? Officiis incidunt facilis pariatur quis?",
+        "image": "/img/caminando.jpg"
+      },
+      {
+        "title": "Memorías análogas",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero blanditiis magni aliquid adipisci deserunt nesciunt! Quas possimus saepe perspiciatis. Omnis accusamus accusantium consectetur doloremque libero? Officiis incidunt facilis pariatur quis?",
+        "image": "/img/caminando.jpg"
+      }
+    ]
+  }
+]
