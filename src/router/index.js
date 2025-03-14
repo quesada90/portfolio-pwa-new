@@ -1,56 +1,56 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory } from "vue-router";
 
 // Import views
-import Home from '../views/Home.vue'
-import Contact from '../views/Contact.vue'
-import ProjectDetail from '../views/ProjectDetail.vue'
+const Home = () => import("../views/Home.vue");
+const Contact = () => import("../views/Contact.vue");
+const ProjectDetail = () => import("../views/ProjectDetail.vue");
 
 const routes = [
   {
-    path: '/',
-    name: 'Home',
+    path: "/",
+    name: "Home",
     component: Home,
     meta: {
-      title: 'Javier Quesada - Portfolio'
-    }
+      title: "Javier Quesada - Portfolio",
+    },
   },
   {
-    path: '/contact',
-    name: 'Contact',
+    path: "/contact",
+    name: "Contact",
     component: Contact,
     meta: {
-      title: 'Contact - Javier Quesada'
-    }
+      title: "Contact - Javier Quesada",
+    },
   },
   {
-    path: '/projects/:id',
-    name: 'ProjectDetail',
+    path: "/projects/:id",
+    name: "ProjectDetail",
     component: ProjectDetail,
     props: true,
     meta: {
-      title: 'Project - Javier Quesada'
-    }
+      title: "Project - Javier Quesada",
+    },
   },
   {
     // Redirect any unmatched routes to home
-    path: '/:pathMatch(.*)*',
-    redirect: '/'
-  }
-]
+    path: "/:pathMatch(.*)*",
+    redirect: "/",
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
   // Scroll to top on route navigation
   scrollBehavior() {
-    return { top: 0 }
-  }
-})
+    return { top: 0 };
+  },
+});
 
 // Dynamic document title based on route
 router.beforeEach((to, from, next) => {
-  document.title = to.meta.title || 'Javier Quesada Portfolio'
-  next()
-})
+  document.title = to.meta.title || "Javier Quesada Portfolio";
+  next();
+});
 
-export default router
+export default router;

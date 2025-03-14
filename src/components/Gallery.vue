@@ -119,6 +119,8 @@ export default {
   gap: 2rem;
   padding-bottom: 4rem;
   text-align: center;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .swiper-container {

@@ -1,6 +1,7 @@
 :root {
    font-family: 'Helvetica', sans-serif;
    color: hsl(0, 0%, 10%);
+   --text-color: aliceblue;
 
    /* Escala modular de tipografía con clamp para hacerla responsive */
    --font-size-xs: clamp(0.875rem, 1vw + 0.5rem, 1rem);  /* 14px - 16px */
@@ -9,6 +10,7 @@
    --font-size-lg: clamp(1.5rem, 2vw + 0.5rem, 2rem);     /* 24px - 32px */
    --font-size-xl: clamp(2rem, 2.5vw + 0.5rem, 2.5rem);   /* 32px - 40px */
    --font-size-xxl: clamp(2.5rem, 3vw + 0.5rem, 3.5rem);  /* 40px - 56px */
+
 }
 
 * {
@@ -71,21 +73,20 @@ header nav {
 nav a {
    text-decoration: none;
    position: relative;
-   color: aliceblue;
+   color: var(--text-color, aliceblue);
+}
 
-   &:hover {
-      text-decoration: underline;
-      color: aliceblue;
-   }
+nav a:hover {
+   text-decoration: underline;
+   color: var(--text-color, aliceblue);
 }
 
 .nav-dark a {
    color: black;
 }
 
-.nav-dark a:hover {
-   text-decoration: underline;
-   color: #252525;
+.nav-dark .menu-toggle span {
+   background-color: black;
 }
 
 /*Hero---------------------------*/
@@ -125,7 +126,7 @@ nav a {
 
 main {
    margin: 0 auto;
-   max-width: 1200px;
+   /* max-width: 1200px; */
 }
 
 .projects {

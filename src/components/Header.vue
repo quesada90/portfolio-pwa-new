@@ -9,7 +9,11 @@
         <li><router-link to="/#projects" @click="scrollToProjects">Projects</router-link></li>
         <li><router-link to="/contact" @click="closeMenu">Contact</router-link></li>
       </ul>
-      <div class="menu-toggle" @click="toggleMenu" v-if="isMobile">
+      <div class="menu-toggle" 
+          @click="toggleMenu" 
+          v-if="isMobile"
+          aria-expanded="menuOpen"
+          aria-label="Toggle navigation menu">
         <span></span>
         <span></span>
         <span></span>
@@ -120,6 +124,18 @@ export default {
 
   .menu-open {
     right: 0;
+  }
+
+  .menuOpen .menu-toggle span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .menuOpen .menu-toggle span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menuOpen .menu-toggle span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
   }
 
   .menu li {
